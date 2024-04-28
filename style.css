@@ -416,7 +416,7 @@ footer .cols .links-col a:hover{
         flex-basis: 50%;
     }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 960px) {
 
     .navbar button{
         display: none;
@@ -435,14 +435,31 @@ footer .cols .links-col a:hover{
     }
 
     .guarantee .item{
-        margin-left: 80px;
-        flex-basis: 80%;
+        flex-basis: 100%;
     }
 
     .about{
         flex-wrap: wrap;
         justify-content: center;
     }
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .navbar{
+        justify-content: center;
+    }
+
+    .navbar h2{
+        display: none;
+    }
+
+    .navbar ul li a{
+        font-size: 14px;
+
+    }
+
 }
 
 }
