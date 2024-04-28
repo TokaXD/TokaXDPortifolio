@@ -157,4 +157,132 @@ navbar ul li {
     transition: background-color 0.3s ease;
 }
 
-.guarantee .item:hover .icon
+.guarantee .item:hover .icon{
+    background-color:  var(--cor-text-main);
+}
+
+
+.guarantee .item .icon i {
+    font-size: 30px;
+}
+
+.guarantee .item .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.guarantee .item .info h3{
+    color: var(--cor-text-main);
+    font-size: 28px;
+}
+
+
+.guarantee .item .info p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.guarantee .item > i{
+    color: #fff;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.guarantee .item:hover > i{
+    color: var(--cor-text-main);
+}
+
+
+.seprator{
+    margin: 50px 50px 30px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.08);
+    display: inline-block;
+    color: var(--cor-text-main);
+    border-radius: 12px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 0 50px;
+}
+
+
+.about img{
+    width: 300px;
+}
+
+.about .info h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .info p{
+    color: #ccc;
+    font-size: 14px;
+
+}
+
+.about .info button{
+    margin-top: 30px;
+}
+
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.skills .left{
+    width: 680px;    
+}
+
+.skills .left .info h3{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.skills .left .info p{
+    color: #ccc;
+    font-size: 14px;
+}
+
+.skills .left button{
+    margin-top: 30px;
+}
+
+.skills .right{
+    width: 420px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills .right .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #383e45;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.skills .right .item iconify-icon{
+    font-size: 34px;
+    color: #fff;
+    
+}
