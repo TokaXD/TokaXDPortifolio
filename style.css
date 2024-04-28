@@ -215,7 +215,7 @@ navbar ul li {
 
 
 .about img{
-    width: 300px;
+    width: 500px;
 }
 
 .about .info h3{
@@ -284,5 +284,165 @@ navbar ul li {
 .skills .right .item iconify-icon{
     font-size: 34px;
     color: #fff;
+
+}
+
+footer{
+    position: relative;
+    background: #1e1e1e;
+    padding: 80px 50px 40px;
+    margin-top: 100px;
+}
+
+footer .start{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    background-color: var(--cor-text-main);
+    padding: 30px 25px;
+    border-radius: 15px;
+    width: 70%;
+    top: -50px;
+    left: 15%;
+}
+
+footer .start p{
+    font-size: 13px;
+    width: 35%;
+}
+
+footer .start button{
+    background: transparent;
+    border:  1px solid #000;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+footer .start button:hover{
+    background-color: #fff;
+    border-color: #fff;
+}
+
+
+footer .cols{
+    display: flex;
+    align-items: start;
+}
+
+footer .cols .about-col{
+    flex: 3;
+}
+
+footer .cols .about-col h3{
+    color: var(--cor-text-main);
+    margin-bottom: 20px;
+}
+
+footer .cols .about-col p{
+    color: #eee;
+    font-size: 13px;
+}
+
+footer .cols .links-col{
+    flex: 3;
+}
+
+footer .cols .links-col h4, footer .cols .new-col h4{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer .cols .links-col a{
+    display: block;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
+footer .cols .links-col a:hover{
+    color: var(--cor-text-main);
+}
+
+@media screen and (max-width: 1100px) {
+    .guarantee{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
     
+    .guarantee .item{
+        flex-basis: 49%;
+    }
+
+    .skills{
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .skills .left{
+        width: 500px;
+    }
+
+    .skills .left .info h3{
+        font-size: 22px
+    }
+
+    .skills .left .info p{
+        font-size: 22px;
+    }   
+
+    footer{
+        margin-top: 150px;
+    }
+
+    footer .start{
+        width: 90%;
+        left: 5%;
+    }
+
+    footer .cols{
+        flex-wrap: wrap;
+    }
+
+    footer .cols .about-col{
+        flex-basis: 50%;
+    }
+
+    footer .cols .links-col{
+        flex-basis: 50%;
+    }
+
+@media screen and (max-width: 780px) {
+
+    .navbar button{
+        display: none;
+    }
+
+    .main h4{
+        font-size: 24px;
+    }
+
+    .main p.title{
+        font-size: 20px;
+    }
+
+    .main p.subtitle{
+        font-size: 14px;
+    }
+
+    .guarantee .item{
+        margin-left: 80px;
+        flex-basis: 80%;
+    }
+
+    .about{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 }
