@@ -482,16 +482,15 @@ footer .cols .links-col a:hover{
     }
 
     .main p.title{
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .main p.subtitle{
         font-size: 12px;
     }
 
-
     .main img{
-        margin-top: 40px;
+        margin-top: 5px;
         width: 150px;
         height: 150px;
     }
@@ -512,6 +511,15 @@ footer .cols .links-col a:hover{
         font-size: 13px;
     }
 
+    .skills .right .item{
+        width: 40px;
+        height: 40px;
+    }
+
+    .skills .right .item iconify-icon{
+        font-size: 20px;
+    }
+    
     footer .start{
         height: 45px;
         top: -8px;
@@ -520,5 +528,7 @@ footer .cols .links-col a:hover{
     footer .start p{
         display: none;
     }
+
+    
 }
 }
