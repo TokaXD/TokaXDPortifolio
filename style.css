@@ -418,6 +418,18 @@ footer .cols .links-col a:hover{
 
 @media screen and (max-width: 960px) {
 
+    .navbar{
+        justify-content: center;
+    }
+
+    .navbar h2{
+        display: none;
+    }
+
+    .navbar ul li a{
+        font-size: 14px;
+    }
+
     .navbar button{
         display: none;
     }
@@ -427,7 +439,7 @@ footer .cols .links-col a:hover{
     }
 
     .main p.title{
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .main p.subtitle{
@@ -447,7 +459,7 @@ footer .cols .links-col a:hover{
 
 @media screen and (max-width: 650px) {
 
-    .navbar{
+    .navbar {
         justify-content: center;
     }
 
@@ -457,9 +469,56 @@ footer .cols .links-col a:hover{
 
     .navbar ul li a{
         font-size: 14px;
-
     }
 
-}
+    .main{
+        margin-top: 50px;
+        height: 320px;
+        justify-content: start;
+    }
+    
+    .main h4{
+        font-size: 20px;
+    }
 
+    .main p.title{
+        font-size: 16px;
+    }
+
+    .main p.subtitle{
+        font-size: 12px;
+    }
+
+
+    .main img{
+        margin-top: 40px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .skills{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills .right{
+        justify-content: space-between;
+    }
+
+    .skills .left .info h3{
+        font-size: 20px;
+    }
+    .skills .left .info p{
+        font-size: 13px;
+    }
+
+    footer .start{
+        height: 45px;
+        top: -8px;
+    }
+
+    footer .start p{
+        display: none;
+    }
+}
 }
